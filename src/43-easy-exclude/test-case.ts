@@ -16,3 +16,5 @@ export type cases = [
     >
   >
 ];
+
+export type A = MyExclude<"a" | "b" | "c", "a">;
